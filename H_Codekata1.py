@@ -11,4 +11,5 @@ def printRepeating(arr,size) :
 			print(arr[i], end = " ")
 		else :
 			count[arr[i]] = count[arr[i]] + 1
+			print("Unique")
 printRepeating(arr, arr_size)
